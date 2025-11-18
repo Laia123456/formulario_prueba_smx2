@@ -1,92 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Application Form</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1>Application Form</h1>
+    <div class="body_medio">
+      <div class="subbody_medio">
+        <h2>A.General Questions</h2>
+        <div class="name1">
+          <h3>Proposed Insured's Name:</h3>
+          <form>
+            <input type="text" />
+          </form>
+        </div>
 
-    <h2>A.General Questions</h2>
-    <h3>Proposed Insured's Name:</h3>
-    <form>
-       <input type="text">
-    </form>
-    
-    <h3>Birth Date:</h3>
-    <form>
-        <input type="date">
-    </form>
+        <div class="name2">
+          <h3>Birth Date:</h3>
+          <form class="date1">
+            <input type="date" />
+          </form>
 
-    <h3>Gender:</h3>
-    <label>
-        <input type="checkbox" name="Male" value="Male">
-        Male
-    </label>
-    <label>
-        <input type="checkbox" name="Female" value="Female">
-        Female
-    </label>
-    <h3>Address:</h3>
-    <form>
-        <input type="text">
-    </form>
-    
-    <h3>Phone Number:</h3>
-    <form>
-        <input type="number">
-    </form>
+          <h3 class="h2_derecha">Gender:</h3>
+          <label>
+            <input type="checkbox" name="Male" value="Male" />
+            Male
+          </label>
+          <label>
+            <input type="checkbox" name="Female" value="Female" />
+            Female
+          </label>
+        </div>
 
-    <h3>Email Address:</h3>
-    <form>
-        <input type="text">
-    </form>
+        <div class="name3">
+          <h3>Address:</h3>
+          <form>
+            <input type="text" />
+          </form>
+        </div>
 
-    <h3>ID Number:</h3>
-    <form>
-        <input type="number">
-    </form>
+        <div class="name4">
+          <h3>Phone Number:</h3>
+          <form>
+            <input type="text" />
+          </form>
 
-    <h3>Social Security Number:</h3>
-    <form>
-        <input type="number">
-    </form>
+          <h3>Email Address:</h3>
+          <form>
+            <input type="text" />
+          </form>
+        </div>
 
-    <h3>Status:</h3>
-    <label>
-        <input type="checkbox" name="Single" value="Single">
-        Single
-    </label>
-    <label>
-        <input type="checkbox" name="Married" value="Married">
-        Married
-    </label>
-    <label>
-        <input type="checkbox" name="Devorced" value="Devorced">
-        Devorced
-    </label>
-    <label>
-        <input type="checkbox" name="Others" value="Others">
-        Others
-    </label>
+        <div class="name5">
+          <h3>ID Number:</h3>
+          <form>
+            <input type="number" />
+          </form>
 
-    <h3>Ocupation:</h3>
-    <form>
-        <input type="text">
-    </form>
+          <h3>Social Security Number:</h3>
+          <form>
+            <input type="number" />
+          </form>
+        </div>
 
-    <h3>Are you a retiree?</h3>
-    <label>
-        <input type="checkbox" name="Yes" value="Yes">
-        Yes
-    </label>
-    <label>
-        <input type="checkbox" name="No" value="No">
-        No
-    </label>
+        <div class="name6">
+          <h3>Status:</h3>
+          <label>
+            <input type="checkbox" name="Single" value="Single" />
+            Single
+          </label>
+          <label>
+            <input type="checkbox" name="Married" value="Married" />
+            Married
+          </label>
+          <label>
+            <input type="checkbox" name="Devorced" value="Devorced" />
+            Devorced
+          </label>
+          <label>
+            <input type="checkbox" name="Others" value="Others" />
+            Others
+          </label>
+        </div>
 
-    <h2>B.Type of Health Coverage</h2>
+        <div class="name7">
+          <h3>Ocupation:</h3>
+          <form>
+            <input type="text" />
+          </form>
 
-</body>
+          <h3>Are you a retiree?</h3>
+          <label>
+            <input type="checkbox" name="Yes" value="Yes" />
+            Yes
+          </label>
+          <label>
+            <input type="checkbox" name="No" value="No" />
+            No
+          </label>
+        </div>
+
+        <h2>B.Type of Health Coverage</h2>
+        
+      </div>
+    </div>
+  </body>
 </html>
